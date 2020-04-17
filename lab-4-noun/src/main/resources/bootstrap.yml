@@ -1,5 +1,9 @@
 ---
 spring:
+  cloud:
+    config:
+      uri: http://localhost:8001
+
   profiles: noun
   application:
     name: lab-4-noun
